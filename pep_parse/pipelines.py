@@ -1,3 +1,6 @@
+import time
+
+
 class PepParsePipeline:
     def open_spider(self, spider):
         self.pep_count = dict()
@@ -10,7 +13,8 @@ class PepParsePipeline:
         return item
 
     def close_spider(self, spider):
-        filename = 'results/status_summary_%(time)s.csv'
+        filename = ('results/'
+                    f'status_summary_{time.strftime("%Y-%m-%dT%H-%M-%S")}.csv')
         with open(filename, mode='w', encoding='utf-8') as f:
             f.write('Статус,Количество\n')
             for status in self.pep_count.keys():
