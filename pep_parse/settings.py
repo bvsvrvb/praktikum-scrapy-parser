@@ -2,6 +2,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).absolute().parent.parent
 RESULTS_DIR = 'results'
+SPIDER_NAME = 'pep'
+ALLOWED_DOMAINS = ['peps.python.org']
+START_URLS = ['https://peps.python.org/']
 
 BOT_NAME = 'pep_parse'
 
