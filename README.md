@@ -1,5 +1,5 @@
 # Асинхронный парсер документации Python
-Учебный проект Яндекс Практикум (курс Python-разработчик плюс)
+Учебный проект Яндекс Практикум (курс Python-разработчик плюс).
 
 ## Описание
 Парсер на базе фреймворка Scrapy, который собирает информацию о [документах PEP](https://peps.python.org/) в два файла .csv:
@@ -13,10 +13,10 @@
 ## Запуск проекта
 Клонировать репозиторий и перейти в директорию проекта:
 ```bash
-git clone https://github.com/bvsvrvb/scrapy_parser_pep.git
+git clone https://github.com/bvsvrvb/praktikum-scrapy-parser.git
 ```
 ```bash
-cd scrapy_parser_pep
+cd praktikum-scrapy-parser
 ```
 Cоздать и активировать виртуальное окружение:
 ```bash
