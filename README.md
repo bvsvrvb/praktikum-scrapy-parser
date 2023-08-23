@@ -8,7 +8,7 @@
 
 ## Технологии
 [![Python](https://img.shields.io/badge/Python-3.9-3776AB?logo=python)](https://www.python.org/)
-[![Scrapy](https://img.shields.io/badge/Scrapy-2.5.1-60a839)](https://scrapy.org/)
+[![Scrapy](https://img.shields.io/badge/Scrapy-2.7.1-60a839)](https://scrapy.org/)
 
 ## Запуск проекта
 Клонировать репозиторий и перейти в директорию проекта:
